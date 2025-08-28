@@ -1,2 +1,2 @@
 # JavaLesson
-Java Lesson
+My Java Lesson and Activities
