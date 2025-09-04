@@ -5,8 +5,8 @@ public class Task4{
         System.out.println("Enter Word: ");
         String EnterWord = scanner.nextLine();
 
-        StringBuilder stringBuilder = new StringBuilder(EnterWord);
-        String reversedWord = stringBuilder.reverse().toString();
+        StringBuilder sb = new StringBuilder(EnterWord);
+        String reversedWord = sb.reverse().toString();
         if(EnterWord.equals(reversedWord)){
             System.out.println("Word is Palindrome");
         }
