@@ -8,11 +8,11 @@ public class Task4{
         StringBuilder sb = new StringBuilder(EnterWord);
         String rw = sb.reverse().toString();
         if(EnterWord.equals(rw)){
-            System.out.println("Word is Palindrome");
+            System.out.println("The Word is Palindrome");
         }
         else
         {
-             System.out.println("Word is not Palindrome");
+             System.out.println("The Word is not Palindrome");
         }
     }
     }
