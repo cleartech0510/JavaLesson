@@ -1,8 +1,11 @@
 public class MyExploration{
 
-    public static void main(String[] args) {
-        int y = 5;
-        long x = 14;
-        System.out.println(y*x);
-    }
-}
+		static int x = 20;
+		public static void main(String[] args) {
+			Program pr = new Program();
+			pr.x = 5;
+			int y = x/pr.x;
+			System.out.print("y = ");
+	         		System.out.print(y);
+		}
+	}	

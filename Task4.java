@@ -14,5 +14,6 @@ public class Task4{
         {
              System.out.println("The Word is not Palindrome");
         }
+        scanner.close();
     }
     }
