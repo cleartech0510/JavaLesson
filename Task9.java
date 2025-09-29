@@ -23,16 +23,16 @@ public class Task9 {
         
         Scanner s = new Scanner(System.in);
         System.out.println("Enter 1st Number: ");
-        int Dig1 = s.nextInt();
+        int a = s.nextInt();
         System.out.println("Enter 2nd Number: ");
-        int Dig2 = s.nextInt();
+        int b = s.nextInt();
         
         System.out.println("Math Operations Results:");
-        System.out.println("Numbers: " + Dig1 + " and " + Dig2);
-        System.out.println("Addition: " + add(Dig1, Dig2));
-        System.out.println("Subtraction: " + subtract(Dig1, Dig2));
-        System.out.println("Multiplication: " + multiply(Dig1, Dig2));
-        System.out.println("Division: " + divide(Dig1, Dig2));
+        System.out.println("Numbers: " + a + " and " + b);
+        System.out.println("Addition: " + add(a, b));
+        System.out.println("Subtraction: " + subtract(a, b));
+        System.out.println("Multiplication: " + multiply(a, b));
+        System.out.println("Division: " + divide(a, b));
         s.close();
     }
 }
