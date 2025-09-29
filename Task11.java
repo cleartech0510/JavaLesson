@@ -24,11 +24,11 @@ class Book {
     int yearPublished;
     double price;
     
-    public Book(String t, String a, int year, double p) {
-        title = t;
-        author = a;
-        yearPublished = year;
-        price = p;
+    public Book(String Title, String Author, int Year, double Price) {
+        title = Title;
+        author = Author;
+        yearPublished = Year;
+        price = Price;
     }
     
     public String toString() {
