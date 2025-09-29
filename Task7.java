@@ -19,5 +19,7 @@ public class Task7 {
         System.out.println("The difference of the two numbers is: " + difference);
         System.out.println("The product of the two numbers is: " + product);
         System.out.println("The quotient of the two numbers is: " + quotient);
+
+        sc.close();
     }
 }

@@ -4,19 +4,19 @@ import java.util.Scanner;
 public class Task9 {
 
     public static int add(int a, int b) {
-        return a + b;
+        return Math.addExact(a, b);
     }
 
     public static int subtract(int a, int b) {
-        return a - b;
+        return Math.subtractExact(a, b);
     }
 
     public static int multiply(int a, int b) {
-        return a * b;
+        return Math.multiplyExact(a, b);
     }
 
     public static float divide(int a, int b) {
-        return (float) a / b;
+        return Math.floorDiv(a, b);
     }
 
     public static void main(String[] args) {
@@ -33,5 +33,6 @@ public class Task9 {
         System.out.println("Subtraction: " + subtract(Dig1, Dig2));
         System.out.println("Multiplication: " + multiply(Dig1, Dig2));
         System.out.println("Division: " + divide(Dig1, Dig2));
+        s.close();
     }
 }
