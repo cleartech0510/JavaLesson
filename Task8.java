@@ -5,7 +5,7 @@ public class Task8 {
 
         System.out.println("Cumulative sums for each parameter:");
         for (int num : numbers) {
-            int cumulative = (num * (num + 1)) / 2; // Using arithmetic formula
+            int cumulative = (num * (num + 1)) / 2;
             System.out.println("Sum of numbers from 1 to " + num + " = " + cumulative);
             totalSum += cumulative;
         }
