@@ -1,4 +1,3 @@
-import static java.lang.Math.*;
 import java.util.Scanner;
 
 public class Task9 {
@@ -23,16 +22,16 @@ public class Task9 {
         
         Scanner s = new Scanner(System.in);
         System.out.println("Enter 1st Number: ");
-        int a = s.nextInt();
+        int num1 = s.nextInt();
         System.out.println("Enter 2nd Number: ");
-        int b = s.nextInt();
+        int num2 = s.nextInt();
         
-        System.out.println("Math Operations Results:");
-        System.out.println("Numbers: " + a + " and " + b);
-        System.out.println("Addition: " + add(a, b));
-        System.out.println("Subtraction: " + subtract(a, b));
-        System.out.println("Multiplication: " + multiply(a, b));
-        System.out.println("Division: " + divide(a, b));
+        System.out.println("Results");
+        System.out.println("Numbers: " + num1 + " and " + num2);
+        System.out.println("Addition: " + add(num1, num2));
+        System.out.println("Subtraction: " + subtract(num1, num2));
+        System.out.println("Multiplication: " + multiply(num1, num2));
+        System.out.println("Division: " + divide(num1, num2));
         s.close();
     }
 }
